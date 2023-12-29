@@ -1,6 +1,6 @@
 import {expect, test} from '@playwright/test'
 import { Page } from '@playwright/test';
-import { LoginPage } from "../Pages/loginPage";
+import { LoginPage } from "../Pages/LoginPage.ts";
 import { text } from 'stream/consumers';
 
 test.beforeEach(async ({page}) => {
