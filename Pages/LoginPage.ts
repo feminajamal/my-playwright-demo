@@ -13,6 +13,6 @@ export class LoginPage{
         await this.page.locator('[name="xoo-el-password"]').fill(password)
         await this.page.getByText('Sign in').click()
 
-        const text = await this.page.locator('#menu-item-1314').textContent()
+        //const text = await this.page.locator('#menu-item-1314').textContent()
     }
 }
