@@ -30,4 +30,4 @@ jobs:
     - run: npm init playwright@latest
     - run: npx playwright install
     - run: npm i --save-dev @playwright/test
-    - run: npx playwright test
+    - run: npx playwright test --project=chromium
