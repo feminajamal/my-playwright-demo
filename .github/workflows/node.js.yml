@@ -28,5 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm init -y
     - run: npm init playwright@latest
-    - run: npm i --save-dev @playwright/test
     - run: npx playwright test
