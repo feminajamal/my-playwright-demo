@@ -27,6 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm init -y
-    - run: npx init playwright@latest
+    - run: npm init playwright@latest
     - run: npm i --save-dev @playwright/test
     - run: npx playwright test
